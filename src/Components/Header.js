@@ -82,7 +82,7 @@ export default function Header () {
       <div className={classes.container}>
           <h1 className={classes.title}>
               WELCOME TO <br /> Z<span className={classes.colorText}>EST
-              <br /> WHERE PASSION EXPLODES</span>
+              <br /> WHERE PASSION EXPLODES!</span>
           </h1>
       
       <IconButton>
