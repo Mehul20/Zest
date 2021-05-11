@@ -5,6 +5,7 @@ import SortIcon from '@material-ui/icons/Sort';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import { Collapse } from '@material-ui/core';
 import { Button } from '@material-ui/core';
+import Link from '@material-ui/core/Link'
 
 const useStyles = makeStyles ((theme)=>({
     root: {
@@ -90,9 +91,11 @@ export default function Header () {
       <IconButton>
           <ExpandMoreIcon className={classes.goDown} />
       </IconButton>
+      <Link href="https://www.mehulrastogi.com/" target="_blank">
       <Button variant="contained" color="primary" disableElevation>
-  Back to my Website!
+          Back to my Website!
 </Button>
+</Link>
       </div>
 
       </Collapse>
