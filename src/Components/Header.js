@@ -1,10 +1,9 @@
 import React, {useEffect,useState} from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import { AppBar, IconButton, Toolbar } from '@material-ui/core'
+import { AppBar, IconButton, Toolbar,Collapse, Button } from '@material-ui/core'
 import SortIcon from '@material-ui/icons/Sort';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-import { Collapse } from '@material-ui/core';
-import { Button } from '@material-ui/core';
+
 import Link from '@material-ui/core/Link'
 
 const useStyles = makeStyles ((theme)=>({
@@ -83,17 +82,17 @@ export default function Header () {
       <div className={classes.container}>
           <h1 className={classes.title}>
               WELCOME TO <br /> Z<span className={classes.colorText}>EST
-              <br /> WHERE PASSION EXPLODES!
-              <br /> Coming Soon &#128640;
+              <br /> WHERE PASSION EXPLODES 🚀
               </span>
           </h1>
       
       <IconButton>
           <ExpandMoreIcon className={classes.goDown} />
       </IconButton>
-      <Link href="https://www.mehulrastogi.com/" target="_blank">
+
+<Link href="https://www.mehulrastogi.com/blog/dogemining/">
       <Button variant="contained" color="primary" disableElevation>
-          Back to my Website!
+          Doge Mining
 </Button>
 </Link>
       </div>
